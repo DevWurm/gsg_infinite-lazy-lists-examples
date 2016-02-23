@@ -1,5 +1,9 @@
-module ObviousLists
-where
+module ObviousLists (
+           naturalNumbers,
+           slowFibs,
+           fastFibs,
+           arithmeticSequence
+) where
 
 naturalNumbers :: [Integer]
 naturalNumbers = calcNaturalNumbers 1
